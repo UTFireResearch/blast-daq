@@ -13,7 +13,7 @@ sudo apt-get install git
 sudo apt-get install python3-pip
 sudo pip3 install paho-mqtt
 sudo pip3 install pyserial
-git clone https://github.com/adafruit/Adafruit_Python_ADS1x15.git
-cd Adafruit_Python_ADS1x15
-sudo python setup.py install
-
+sudo pip3 install w1thermsensor
+sudo pip3 install adafruit-circuitpython-ads1x15
+sudo pip3 install adafruit-circuitpython-ads1x15 pyserial paho-mqtt w1thermsensor
+d
