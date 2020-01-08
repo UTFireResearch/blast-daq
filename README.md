@@ -16,4 +16,5 @@ sudo pip3 install pyserial
 sudo pip3 install w1thermsensor
 sudo pip3 install adafruit-circuitpython-ads1x15
 sudo pip3 install adafruit-circuitpython-ads1x15 pyserial paho-mqtt w1thermsensor
-d1
+sudo apt-get install python3-numpy
+
