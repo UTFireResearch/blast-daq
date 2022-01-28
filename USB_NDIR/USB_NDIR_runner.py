@@ -10,7 +10,7 @@ ser = serial.Serial('/dev/ttyUSB0', 9600)
 ser.readline()
 ser.readline()
 
-THINGSBOARD_HOST = '192.168.0.199'
+THINGSBOARD_HOST = '192.168.0.200'
 ACCESS_TOKEN = socket.gethostname()
 client = mqtt.Client()
 client.username_pw_set(ACCESS_TOKEN)
